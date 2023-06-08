@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { UsersModule } from './users/users.module';
 
+
 @NgModule({
   declarations: [
 HomeComponent,
@@ -17,7 +18,7 @@ PageNotFoundComponent
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    UsersModule
+    UsersModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
